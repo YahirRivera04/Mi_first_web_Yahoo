@@ -1,0 +1,127 @@
+/* CSS styles */
+body{
+    background: #cccccc;
+    
+}
+div.Main_title{
+    place-content: center;
+    margin: 100px;
+    height: 10px;
+    min-width: 700px;
+    max-width: auto;
+    background-color: green;
+    top: 100%;
+    transform: translate(0%, -50%);
+}
+h1{
+    font-size: xx-large;
+    color: red;
+    text-shadow: 0.5em 0.1em 0.5em #cccccc, -0.5em -0.1em 0.4em  #cccccc;
+    font-family: 'Yahoo';
+    height: 55px;
+    transform: translate(0%, -55%);
+}
+div.Menu{
+    position: relative;
+    width: auto;
+    height: 20px;;
+    top: 50%;
+    left: 53%;
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%, 60%);
+    color: blue;
+}
+img.Logo_1{
+
+    position: relative;
+    right: 50%;
+    transform: translate(0%,-80%);
+}
+img.Logo_2{
+    position: relative;
+    right: 50%;
+    transform: translate(0%, -80%);
+}
+img.Logo_3{
+    position: relative;
+    right: 50%;
+    transform: translate(0%, -80%);
+}
+img.Logo_4{
+    position: relative;
+    right: 50%;
+    transform: translate(0%, -80%);
+}
+div.Top_Center{
+    margin: 100px;
+    height: 60px;
+    min-width: 700px;
+    max-width: auto;
+    position: relative;
+    display: flex;
+    text-align: center;
+    place-content: center;
+    justify-content: space-evenly;
+    transform: translate(0%, 0%);
+    color: blue;
+    
+}
+p.Mail{
+    font-size: 23px; 
+    color: rgba(239, 239, 127, 0.579);
+    width: 270px;
+    background-color: rgba(24, 108, 24, 0.673);
+    border: 1px solid black;
+}
+div.Container_Low_Center{
+    margin-left: 100px;
+    min-width: 700px;
+    max-width: auto;
+    position: relative;
+    display: flex;
+    text-align: center;
+    place-content: center;
+    justify-content: space-evenly;
+}
+div.Low_Center{
+    text-align: center;
+    transform: translate(-10%, -200%);
+    color: blue;  
+}
+button.Boton_Buscar{
+    border: black 0.5px solid;
+    background-color: #cccccc;
+}
+input.Barra_Texto{
+    width: 300px;
+}
+div.Textos{
+    margin-left: 100px;
+    min-width: 700px;
+    max-width: auto;
+    justify-content: center;
+    display: flex;
+    transform: translate(-5%, 0%);
+    color: blue;
+}
+div.Editor_Dropdown{
+    margin: 10px; 
+}
+button.btn{
+    background-color: #b1b0b0;
+}
+ul.dropdown-menu{
+    background-color: #b1b0b0;
+}
+#demo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
